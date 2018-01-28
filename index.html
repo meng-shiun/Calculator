@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Calculator - MS</title>
+
+  <!-- Bootstrap v4.0 beta.2-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row spacer d-none d-sm-block"></div>
+
+    <div class="row">
+      <div class="d-none d-sm-block col-sm-4"></div>
+
+      <!-- Calculator -->
+      <main class="col-12 col-sm-4">
+        <!-- Calculator Base -->
+        <div id="calculator">
+          <!-- Output panel -->
+          <div id="panel" class="text-right">
+            <!-- History -->
+            <div id="history">0</div>
+            <!-- Result max 8 numbers-->
+            <div id="result">0</div>
+          </div>
+          <!-- Buttons -->
+          <div id="buttons">
+            <button id="ac" class="clear-btn">AC</button>
+            <button id="ce" class="clear-btn">CE</button>
+            <button id="divideBtn" class="op-btn">÷</button>
+            <button id="multiplyBtn" class="remove-bor-r op-btn">×</button>
+            <button value="7" class="btn7">7</button>
+            <button value="8" class="btn8">8</button>
+            <button value="9" class="btn9">9</button>
+            <button id="substractBtn" class="remove-bor-r op-btn">-</button>
+            <button value="4" class="btn4">4</button>
+            <button value="5" class="btn5">5</button>
+            <button value="6" class="btn6">6</button>
+            <button id="addBtn" class="remove-bor-r op-btn">+</button>
+            <button value="1" class="btn1">1</button>
+            <button value="2" class="btn2">2</button>
+            <button value="3" class="btn3">3</button>
+            <button id="equalBtn" class="remove-bor-r remove-bor-b equal-btn">=</button>
+            <button value="0" id="zeroBtn" class="remove-bor-b">0</button>
+            <button value="." id="dotBtn" class="remove-bor-b">.</button>
+          </div>
+        </div>
+      </main>
+
+      <div class="d-none d-sm-block col-sm-4"></div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>

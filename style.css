@@ -1,0 +1,177 @@
+html, body {
+  background-color: #7a606d;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 26px;
+}
+
+.spacer {
+  height: 5em;
+}
+
+#calculator {
+  position: relative;
+  height: 520px;
+  width: 320px;
+  margin-left: auto; margin-right: auto;
+  margin-top: 2em; margin-bottom: 2em;
+  border-radius: 10px;
+  box-shadow: 0 40px 81px -27px #1c1b1c;
+}
+
+#panel {
+  background-color: #2d353a;
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  padding: 16px;
+  font-size: 46px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  letter-spacing: 3px;
+}
+
+#history {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-right: 6px;
+  color: #686866;
+}
+
+#result {
+  color: #e0e0e0;
+}
+
+#buttons {
+  position: absolute;
+  width: 320px; height: 400px; top: 120px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-size: 22px;
+  display: block;
+  float: left;
+  color: #e0e0e0;
+  background-color: #262e30;
+  border: none;
+  border-right: 1px solid #2e373a;
+  border-bottom: 1px solid #2e373a;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #414d51;
+  font-size: 30px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.ani-fade {
+  background-color: #414d51;
+  font-size: 30px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#equalBtn {
+  position: absolute;
+  top: 240px; left: 240px; height: 160px;
+  border-bottom-right-radius: 8px;
+}
+
+.equal-btn {
+  background-color: #ce444f;
+  font-size: 32px;
+}
+
+.equal-btn:hover {
+  background-color: #f76c78;
+  font-size: 40px;
+}
+
+.equalBtn-fade {
+  background-color: #f76c78;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#zeroBtn {
+  position: absolute;
+  top: 320px; left: 0; width: 160px;
+  border-bottom-left-radius: 8px;
+}
+
+#dotBtn {
+  position: absolute;
+  top: 320px; left: 160px;
+}
+
+.clear-btn {
+  background-color: #1d2326;
+  color: #ce444f;
+}
+
+.clear-btn:hover {
+  background-color: #dd4f5b;
+  color: #fff;
+}
+
+.ceBtn-fade {
+  background-color: #dd4f5b;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.op-fade {
+  background-color: #fcb937;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.op-btn {
+  background-color: #1d2326;
+  font-size: 32px;
+}
+
+.op-btn:hover {
+  background-color: #fcb937;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Remove right border */
+.remove-bor-r {
+  border-right: none;
+}
+/* Remove bottom border */
+.remove-bor-b {
+  border-bottom: none;
+}
